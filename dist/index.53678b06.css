@@ -1,0 +1,76 @@
+body {
+  background-image: linear-gradient(#3046c5, #add8e6, #fff, #add8e6, #3046c5);
+  font-family: Open Sans, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Lobster, cursive;
+}
+
+h2 {
+  color: #3046c5;
+}
+
+header {
+  color: #fff;
+  background-image: linear-gradient(to right, #5637dd, #3046c5, #60106b);
+  padding: 30px;
+}
+
+header h2 {
+  color: #cec8ff;
+}
+
+footer {
+  background-image: linear-gradient(#cec8ff, #fff);
+  padding: 20px 0;
+}
+
+.row-content {
+  border-bottom: 1px ridge;
+  min-height: 200px;
+  padding: 50px 0;
+}
+
+.navbar {
+  background-image: #901cad;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.accordion-button {
+  background-color: #d3d3d3;
+}
+
+.carousel-caption {
+  background-color: #00000080;
+}
+
+.carousel {
+  border: solid #5637dd;
+}
+
+.accordion-button {
+  font-family: copperplate;
+  font-size: 30px;
+}
+
+h3 {
+  padding-bottom: 10px;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#reserveModal .modal-header {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+#loginModal .modal-header {
+  color: #fff;
+  background-color: #901cad;
+}
+
+/*# sourceMappingURL=index.53678b06.css.map */
