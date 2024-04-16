@@ -5,13 +5,17 @@
     <!-- Required meta tags always come first -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
     <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
-    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css" rel="stylesheet">
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" rel="stylesheet">
+    <link href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
-    <link rel="stylesheet" href="css/styles.scss"/>
+    <link rel="stylesheet" href="css/styles.scss" />
     <title>Nucamp: A Better Way To Camp</title>
 </head>
 
@@ -22,7 +26,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                    <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
                 </div>
                 <div class="col">
                     <h1>Nucamp</h1>
@@ -35,9 +39,8 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30"></a>
-            <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse"
-                data-bs-target="#nucampNavbar">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="30" width="30" /></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nucampNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="nucampNavbar">
@@ -47,7 +50,7 @@
                     <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
                             About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="#"><i class="fa fa-address-card fa-lg"></i>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>
                             Contact</a></li>
                 </ul>
             </div>
@@ -94,55 +97,55 @@
                     <div class="row mb-3">
                         <label for="firstName" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control shadow" id="firstName" name="firstName" placeholder="First Name">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control shadow" id="lastName" name="lastName" placeholder="Last Name">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name">
                         </div>
-                    </div>    
-                    <div class="row mb-3">
-                        <label for="areaCode" class="col-md-2">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control shadow" id="areaCode" name="areaCode" placeholder="Area code">
-                        </div>
-                        <div class="col">
-                            <input type="tel" class="form-control shadow" name="telNum" placeholder="Tel. number">
-                        </div>                     
                     </div>
                     <div class="row mb-3">
-                        <label for="email" class="col-md-2 col-for-label">Email</label>
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code">
+                        </div>
+                        <div class="col">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control shadow" id="email" name="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email">
                         </div>
                     </div>
                     <div class="row mb-3">
                         <div class="col offset-md-2">
-                             May we contact you?
+                            May we contact you?
                             <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input shadow" id="contactYes" name="contactRadios" value="yes">
+                                <input type="radio" class="form-check-input" id="contactYes" name="contactRadios" value="yes">
                                 <label for="contactYes" class="form-check-label">Yes</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input type="radio" class="form-check-input shadow" id="contactNo" name="contactRadios" value="no">
+                                <input type="radio" class="form-check-input" id="contactNo" name="contactRadios" value="no">
                                 <label for="contactNo" class="form-check-label">No</label>
                             </div>
                         </div>
-                    </div>        
+                    </div>
                     <div class="row mb-3">
-                            <label for="feedback" class="col-md-2 col-for-label">Your Feedback</label>
-                            <div class="col-md-10">
-                                <textarea class="form-control shadow" id="feedback" name="feedback" rows="8"></textarea>
-                            </div>
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
                         </div>
-                        <div class="row mb-3">
-                            <div class="offset-md-2 col-md-10">
-                                <button type="submit" class="btn btn-primary shadow">Send Feedback</button>
-                            </div>
-                        </div> 
-                </form>    
+                    </div>
+                    <div class="row mb-3">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
 
@@ -176,8 +179,7 @@
     </footer>
 
     <!-- Bootstrap JavaScript plugins-->
-    <!-- Bootstrap JavaScript plugins -->
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 
