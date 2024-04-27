@@ -1,0 +1,1 @@
+#weather{display:flex;align-items:center;color:#fff}#weather #weather-icon{font-size:1rem}#weather #weather-temp,#weather #weather-description{margin-right:10px}#weather #weather-description{text-transform:capitalize}#weather:hover{opacity:0.8}
